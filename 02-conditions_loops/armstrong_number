@@ -1,0 +1,5 @@
+n = input("Enter non-negative integer: ")
+if n.isdigit():
+    total = sum(int(d) ** len(n) for d in n)
+    print("Armstrong number" if total == int(n) else "Not an Armstrong number")
+else: print("Invalid input")
