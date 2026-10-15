@@ -1,0 +1,4 @@
+a = input("First value: ")
+b = input("Second value: ")
+a, b = b, a
+print("After swapping:", a, b)
