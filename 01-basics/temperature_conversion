@@ -1,0 +1,2 @@
+celsius = float(input("Celsius: "))
+print("Fahrenheit:", celsius * 9 / 5 + 32)
