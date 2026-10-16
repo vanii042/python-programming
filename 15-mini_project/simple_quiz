@@ -1,0 +1,6 @@
+questions = {"Which keyword defines a function? ": "def", "What is 2 ** 3? ": "8", "Which type stores True/False? ": "bool"}
+score = 0
+for question, answer in questions.items():
+    if input(question).strip().lower() == answer.lower(): print("Correct!"); score += 1
+    else: print("Answer:", answer)
+print(f"Score: {score}/{len(questions)}")
