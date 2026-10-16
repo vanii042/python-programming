@@ -1,0 +1,8 @@
+try:
+    a = float(input("First number: "))
+    b = float(input("Second number: "))
+    print("Division:", a / b)
+except ValueError:
+    print("Please enter valid numbers.")
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
