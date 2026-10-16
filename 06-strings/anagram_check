@@ -1,0 +1,3 @@
+a = input("First phrase: ").lower().replace(" ", "")
+b = input("Second phrase: ").lower().replace(" ", "")
+print("Anagrams" if sorted(a) == sorted(b) else "Not anagrams")
