@@ -1,0 +1,5 @@
+import math
+a, b = map(int, input("Enter two integers: ").split())
+g = math.gcd(a, b)
+print("GCD:", g)
+print("LCM:", 0 if g == 0 else abs(a*b)//g)
