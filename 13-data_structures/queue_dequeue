@@ -1,0 +1,3 @@
+from collections import deque
+queue = deque(["first", "second", "third"])
+while queue: print("Removed:", queue.popleft())
