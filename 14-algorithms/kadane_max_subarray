@@ -1,0 +1,8 @@
+numbers = list(map(int, input("Enter numbers: ").split()))
+if not numbers: print("Enter at least one number.")
+else:
+    current = best = numbers[0]
+    for n in numbers[1:]:
+        current = max(n, current+n)
+        best = max(best, current)
+    print("Maximum subarray sum:", best)
