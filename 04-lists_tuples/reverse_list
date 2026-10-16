@@ -1,0 +1,2 @@
+items = input("Enter items separated by spaces: ").split()
+print(items[::-1])
