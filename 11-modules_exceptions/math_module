@@ -1,0 +1,4 @@
+import math
+n = float(input("Enter a non-negative number: "))
+if n >= 0: print("Square root:", math.sqrt(n))
+else: print("Cannot calculate real square root of a negative number")
