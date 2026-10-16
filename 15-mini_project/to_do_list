@@ -1,0 +1,13 @@
+tasks = []
+while True:
+    print("\\n1 Add  2 View  3 Remove  4 Exit")
+    choice = input("Choose: ")
+    if choice == "1": tasks.append(input("Task: "))
+    elif choice == "2":
+        for i, task in enumerate(tasks, 1): print(i, task)
+        if not tasks: print("No tasks")
+    elif choice == "3":
+        try: print("Removed:", tasks.pop(int(input("Task number: ")) - 1))
+        except (ValueError, IndexError): print("Invalid task number")
+    elif choice == "4": break
+    else: print("Choose 1-4")
