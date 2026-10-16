@@ -1,0 +1,3 @@
+note = input("Enter a note: ")
+with open("notes.txt", "a", encoding="utf-8") as file: file.write(note + "\\n")
+print("Saved to notes.txt")
