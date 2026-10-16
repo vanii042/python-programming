@@ -1,0 +1,5 @@
+def factorial(n):
+    if n <= 1: return 1
+    return n * factorial(n - 1)
+n = int(input("Enter n (0-900): "))
+print(factorial(n) if 0 <= n <= 900 else "Enter a number from 0 to 900")
