@@ -1,0 +1,3 @@
+base = float(input("Base: "))
+exponent = int(input("Integer exponent: "))
+print("Result:", base ** exponent)
