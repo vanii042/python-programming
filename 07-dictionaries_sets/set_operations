@@ -1,0 +1,5 @@
+a = set(map(int, input("First set: ").split()))
+b = set(map(int, input("Second set: ").split()))
+print("Union:", a | b)
+print("Intersection:", a & b)
+print("Difference:", a - b)
