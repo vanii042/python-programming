@@ -1,0 +1,4 @@
+colors = ("red", "green", "blue")
+print("Tuple:", colors)
+print("First:", colors[0])
+print("Length:", len(colors))
