@@ -1,0 +1,2 @@
+text = input("Enter text: ")
+for ch in sorted(set(text)): print(repr(ch), ":", text.count(ch))
