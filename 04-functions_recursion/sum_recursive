@@ -1,0 +1,5 @@
+def sum_to_n(n):
+    if n <= 0: return 0
+    return n + sum_to_n(n - 1)
+n = int(input("Enter n (0-900): "))
+print(sum_to_n(n) if 0 <= n <= 900 else "Invalid input")
