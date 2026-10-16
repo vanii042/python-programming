@@ -1,0 +1,4 @@
+add = lambda a, b: a + b
+a = float(input("First number: "))
+b = float(input("Second number: "))
+print("Sum:", add(a, b))
