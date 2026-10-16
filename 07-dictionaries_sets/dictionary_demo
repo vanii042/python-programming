@@ -1,0 +1,2 @@
+student = {"name": "Aarav", "roll": 101, "course": "CSE"}
+for key, value in student.items(): print(key, ":", value)
