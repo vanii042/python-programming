@@ -1,0 +1,3 @@
+stack = []
+stack.extend([10, 20, 30])
+while stack: print("Removed:", stack.pop())
